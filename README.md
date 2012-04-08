@@ -37,6 +37,7 @@ Usage
 * create `c:\chef\cookbooks>` and add cookbook to directory
 
 * create `c:\chef\node.json`
+  
   {
     "run_list": [
     "recipe[windows]",
@@ -45,10 +46,12 @@ Usage
   }
 
 * create `c:\chef\solo.rb`
+  
   log_level	      :info
   log_location	      STDOUT
   file_cache_path     "c:/chef/chef-cache"
   cookbook_path	      "c:/chef/cookbooks"
 	
 * execute chef-solo
+
 `c:\>chef-solo -c c:/chef/solor.rb -j c:/chef/node.json`
