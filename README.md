@@ -47,10 +47,10 @@ create `c:\chef\node.json`
 
 create `c:\chef\solo.rb`
   
-  log_level	      :info
-  log_location	      STDOUT
-  file_cache_path     "c:/chef/chef-cache"
-  cookbook_path	      "c:/chef/cookbooks"
+    log_level		:info
+    log_location	STDOUT
+    file_cache_path	"c:/chef/chef-cache"
+    cookbook_path	"c:/chef/cookbooks"
 	
 execute chef-solo
 
