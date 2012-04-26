@@ -23,7 +23,3 @@ default['Notepad++']['checksum']	= "42f7991bd628cf2f95bcc2ad24b52ea1653942dfc4ac
 default['Notepad++']['package_name']	= "Notepad++"
 default['Notepad++']['home']    	= "#{ENV['SYSTEMDRIVE']}\\Notepad++"
 
-# Sysinternals Suite attributes
-default['sysinternals']['url']            = "http://download.sysinternals.com/files/SysinternalsSuite.zip"
-default['sysinternals']['package_name']   = "Sysinternals Suite"
-default['sysinternals']['home']           = "c:/bin/sysinternals"

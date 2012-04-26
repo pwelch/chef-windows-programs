@@ -41,7 +41,7 @@ create `c:\chef\node.json`
     {
       "run_list": [
       "recipe[windows]",
-      "recipe[windows-programs]"
+      "recipe[chef-windows-programs]"
       ]
     }
 
@@ -54,4 +54,4 @@ create `c:\chef\solo.rb`
 	
 execute chef-solo
 
-`c:\>chef-solo -c c:/chef/solor.rb -j c:/chef/node.json`
+`c:\>chef-solo -c c:/chef/solo.rb -j c:/chef/node.json`
